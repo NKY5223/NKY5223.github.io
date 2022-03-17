@@ -30,6 +30,9 @@ a {
 .section .description h2 {
     display: inline-block;
 }
+.section .description p {
+    margin: 0;
+}
 .section .description a img {
     height: 1em;
     display: inline;
@@ -66,4 +69,7 @@ a {
 }
 .left .description {
     float: left;
+}
+.left .description a img {
+    margin-left: 5px;
 }
