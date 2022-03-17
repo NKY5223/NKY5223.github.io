@@ -27,6 +27,14 @@ a {
 .section .description {
     max-width: min(60%, calc(100% - 500px));
 }
+.section .description h2 {
+    display: inline-block;
+}
+.section .description a img {
+    height: 1em;
+    display: inline;
+    transform: translateY(3px);
+}
 .section:hover {
     height: 240px;
 }
@@ -44,6 +52,9 @@ a {
 }
 .right .description {
     float: right;
+}
+.right .description a img {
+    margin-right: 5px;
 }
 
 .left {
