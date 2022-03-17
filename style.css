@@ -1,4 +1,58 @@
 html {
     padding: 0;
     background: #000000;
+    color: #ffffff;
+    font-family: Consolas, monospace;
+}
+body {
+    margin: 0;
+}
+h1 {
+    padding-left: 20px;
+}
+a {
+    color: #2080ff;
+    text-decoration: none;
+}
+
+.section {
+    overflow: hidden;
+    height: 200px;
+    transition: 0.2s;
+}
+.section img { 
+    height: 200px;
+    transition: 0.2s;
+}
+.section .description {
+    max-width: min(60%, calc(100% - 500px));
+}
+.section:hover {
+    height: 240px;
+}
+.section:hover img {
+    height: 240px;
+}
+
+.right {
+    text-align: right;
+    padding-right: 20px;
+    background: #101010;
+}
+.right img {
+    float: left;
+}
+.right .description {
+    float: right;
+}
+
+.left {
+    text-align: left;
+    padding-left: 20px;
+}
+.left img {
+    float: right;
+}
+.left .description {
+    float: left;
 }
